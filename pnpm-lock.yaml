@@ -1,42 +1,42 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@formkit/auto-animate': ^1.0.0-beta.5
+  '@formkit/auto-animate': ^1.0.0-beta.6
   '@iconify/icons-clarity': ^1.2.8
   '@iconify/icons-ic': ^1.2.13
-  '@iconify/icons-material-symbols': ^1.2.25
-  '@iconify/icons-mdi': ^1.2.39
-  '@iconify/svelte': ^3.0.1
+  '@iconify/icons-material-symbols': ^1.2.31
+  '@iconify/icons-mdi': ^1.2.43
+  '@iconify/svelte': ^3.1.0
   '@popperjs/core': ^2.11.6
-  '@sveltejs/vite-plugin-svelte': ^2.0.2
+  '@sveltejs/vite-plugin-svelte': ^2.0.3
   '@tsconfig/svelte': ^3.0.0
   autoprefixer: ^10.4.13
   classnames: ^2.3.2
-  flowbite: ^1.6.2
-  flowbite-svelte: ^0.29.10
-  gh-pages: ^4.0.0
-  lottie-web: ^5.10.1
+  flowbite: ^1.6.3
+  flowbite-svelte: ^0.30.6
+  gh-pages: ^5.0.0
+  lottie-web: ^5.10.2
   postcss: ^8.4.21
   postcss-load-config: ^4.0.1
   svelte: ^3.55.1
-  svelte-check: ^3.0.2
-  svelte-inview: ^3.0.2
+  svelte-check: ^3.1.0
+  svelte-inview: ^3.0.4
   svelte-loading-spinners: ^0.3.4
-  svelte-local-storage-store: ^0.3.2
-  svelte-preprocess: ^5.0.0
+  svelte-local-storage-store: ^0.4.0
+  svelte-preprocess: ^5.0.1
   svelte-spa-router: ^3.3.0
   svelte-transition: ^0.0.7
-  tailwindcss: ^3.2.4
+  tailwindcss: ^3.2.7
   tailwindcss-animate: ^1.0.5
-  tslib: ^2.4.1
-  typescript: ^4.9.4
-  vite: ^4.0.4
+  tslib: ^2.5.0
+  typescript: ^4.9.5
+  vite: ^4.1.4
 
 dependencies:
   '@formkit/auto-animate': 1.0.0-beta.6
   lottie-web: 5.10.2
   svelte-inview: 3.0.4_svelte@3.55.1
-  svelte-local-storage-store: 0.3.2_svelte@3.55.1
+  svelte-local-storage-store: 0.4.0_svelte@3.55.1
   svelte-spa-router: 3.3.0
   svelte-transition: 0.0.7
 
@@ -52,8 +52,8 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   classnames: 2.3.2
   flowbite: 1.6.3
-  flowbite-svelte: 0.29.13
-  gh-pages: 4.0.0
+  flowbite-svelte: 0.30.6_gvo3oetiwnc3nogynwkaz6jdxe
+  gh-pages: 5.0.0
   postcss: 8.4.21
   postcss-load-config: 4.0.1_postcss@8.4.21
   svelte: 3.55.1
@@ -425,10 +425,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /async/2.6.4:
-    resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
-    dependencies:
-      lodash: 4.17.21
+  /async/3.2.4:
+    resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
     dev: true
 
   /autoprefixer/10.4.13_postcss@8.4.21:
@@ -588,8 +586,8 @@ packages:
     resolution: {integrity: sha512-K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ==}
     dev: true
 
-  /email-addresses/3.1.0:
-    resolution: {integrity: sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg==}
+  /email-addresses/5.0.0:
+    resolution: {integrity: sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==}
     dev: true
 
   /es6-promise/3.3.1:
@@ -691,13 +689,19 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /flowbite-svelte/0.29.13:
-    resolution: {integrity: sha512-9MnJzdPyooPm4Gp6Fl+NrozNiL6eQiLQ7BdraKkH6Gh34VR4G6mFkJcG4CUptFQ84zSa0YHhF9MYcnsrK8nLsg==}
+  /flowbite-svelte/0.30.6_gvo3oetiwnc3nogynwkaz6jdxe:
+    resolution: {integrity: sha512-F4plUcGSToG5/1V+dcwntb78uGWF9HLsxSUOGPrXcrTx7JHfNnIXH6ufiWDcNsnoJUee1f7cyJfuaqBbhT463Q==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+    peerDependencies:
+      '@popperjs/core': ^2.11.6
+      classnames: ^2.3.2
+      flowbite: ^1.6.3
+      svelte: ^3.55.1
     dependencies:
       '@popperjs/core': 2.11.6
       classnames: 2.3.2
       flowbite: 1.6.3
+      svelte: 3.55.1
     dev: true
 
   /flowbite/1.6.3:
@@ -736,14 +740,14 @@ packages:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
 
-  /gh-pages/4.0.0:
-    resolution: {integrity: sha512-p8S0T3aGJc68MtwOcZusul5qPSNZCalap3NWbhRUZYu1YOdp+EjZ+4kPmRM8h3NNRdqw00yuevRjlkuSzCn7iQ==}
+  /gh-pages/5.0.0:
+    resolution: {integrity: sha512-Nqp1SjkPIB94Xw/3yYNTUL+G2dxlhjvv1zeN/4kMC1jfViTEqhtVz/Ba1zSXHuvXCN9ADNS1dN4r5/J/nZWEQQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      async: 2.6.4
+      async: 3.2.4
       commander: 2.20.3
-      email-addresses: 3.1.0
+      email-addresses: 5.0.0
       filenamify: 4.3.0
       find-cache-dir: 3.3.2
       fs-extra: 8.1.0
@@ -871,10 +875,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-locate: 4.1.0
-    dev: true
-
-  /lodash/4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
 
   /lottie-web/5.10.2:
@@ -1327,8 +1327,8 @@ packages:
     resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
     dev: true
 
-  /svelte-local-storage-store/0.3.2_svelte@3.55.1:
-    resolution: {integrity: sha512-wIjXgulHNYecHAWv68ZpQOaxjFJS/LaGAo8yKLal/mMrWTkbpGQMo2f2hF5X9WJGNqsOp5pJAjsmnuNoottctQ==}
+  /svelte-local-storage-store/0.4.0_svelte@3.55.1:
+    resolution: {integrity: sha512-ctPykTt4S3BE5bF0mfV0jKiUR1qlmqLvnAkQvYHLeb9wRyO1MdIFDVI23X+TZEFleATHkTaOpYZswIvf3b2tWA==}
     engines: {node: '>=0.14'}
     peerDependencies:
       svelte: ^3.48.0
