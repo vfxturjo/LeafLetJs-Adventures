@@ -1,0 +1,43 @@
+/* Write your global styles here, in PostCSS syntax */
+@import "/src/assets/css/all.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Animations */
+  .anim-grow {
+    @apply transition ease-out delay-150 rounded hover:scale-110 hover:bg-indigo-500 hover:bg-opacity-25 duration-300;
+  }
+  .anim-reducible {
+    @apply motion-reduce:transition-none motion-reduce:hover:transform-none;
+  }
+  .hover_scaleup {
+    @apply hover:scale-105;
+  }
+
+  /* App styling */
+  .app_icon_card {
+    @apply w-full text-center text-8xl p-4;
+  }
+
+  /* utilities */
+  .centerrr {
+    @apply min-h-full min-w-full flex justify-center items-center;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  circle_middle {
+    @apply absolute top-[1/2] left-[50%];
+  }
+}

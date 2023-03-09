@@ -1,0 +1,47 @@
+{
+  "name": "svcomponents",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@iconify/icons-clarity": "^1.2.8",
+    "@iconify/icons-ic": "^1.2.13",
+    "@iconify/icons-material-symbols": "^1.2.25",
+    "@iconify/icons-mdi": "^1.2.39",
+    "@iconify/svelte": "^3.0.1",
+    "@popperjs/core": "^2.11.6",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "classnames": "^2.3.2",
+    "flowbite": "^1.6.2",
+    "flowbite-svelte": "^0.29.10",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.21",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.55.1",
+    "svelte-check": "^3.0.2",
+    "svelte-loading-spinners": "^0.3.4",
+    "svelte-preprocess": "^5.0.0",
+    "tailwindcss": "^3.2.4",
+    "tailwindcss-animate": "^1.0.5",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^1.0.0-beta.5",
+    "lottie-web": "^5.10.1",
+    "svelte-inview": "^3.0.2",
+    "svelte-local-storage-store": "^0.3.2",
+    "svelte-spa-router": "^3.3.0",
+    "svelte-transition": "^0.0.7"
+  }
+}
