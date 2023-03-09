@@ -1,5 +1,5 @@
 {
-	"name": "aaa",
+	"name": "leafletjs-adventures",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
