@@ -1,4 +1,8 @@
 <script>
+	// enabling prerender for GHPages
+	export const prerender = true;
+
+	// main
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>

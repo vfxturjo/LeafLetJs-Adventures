@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
@@ -8,6 +9,8 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
+<a href="{base}/about">About</a>
 
 <section>
 	<h1>
