@@ -16,6 +16,19 @@ export const routes = {
   }),
 
   // main pages
+  "/firstRun": wrap({
+    asyncComponent: () => import("./lib/Adventures/FirstRun/FirstRun.svelte"),
+  }),
+
+  "/SvelteFFT": wrap({
+    asyncComponent: () => import("./lib/Others/Svelte-fft/SvelteFFT.svelte"),
+  }),
+  "/otherTry": wrap({
+    asyncComponent: () => import("./lib/Others/Svelte-fft/otherTry.svelte"),
+  }),
+  "/visualizing": wrap({
+    asyncComponent: () => import("./lib/Others/Svelte-fft/visualizing.svelte"),
+  }),
 
   // utility page
 

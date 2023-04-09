@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -34,7 +34,8 @@
     "tailwindcss-animate": "^1.0.5",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5",
-    "vite": "^4.1.4"
+    "vite": "^4.1.4",
+    "vite-plugin-mkcert": "^1.13.3"
   },
   "dependencies": {
     "@formkit/auto-animate": "^1.0.0-beta.6",

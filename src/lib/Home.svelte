@@ -9,14 +9,29 @@ import imageGalleryLine from "@iconify/icons-clarity/image-gallery-line";
 
 let pages = [
   {
-    App_name: "Gallery of components",
-    icon: imageGalleryLine,
-    href: "#/Gallery",
+    App_name: "First Run",
+    icon: counterIcon,
+    href: "#/firstRun",
   },
   {
     App_name: "Multi-Counter App",
     icon: counterIcon,
     href: "#/CounterApp",
+  },
+  {
+    App_name: "Other -> Svelte-FFT",
+    icon: counterIcon,
+    href: "#/SvelteFFT",
+  },
+  {
+    App_name: "Other -> otherTry",
+    icon: counterIcon,
+    href: "#/otherTry",
+  },
+  {
+    App_name: "Other -> visualizing",
+    icon: counterIcon,
+    href: "#/visualizing",
   },
 ];
 </script>
@@ -24,9 +39,9 @@ let pages = [
 <div class="p-2">
   <!-- Intro text -->
   <div class="pb-2">
-    <P size="4xl" class="text-center">Survapps: Surveying Apps!</P>
+    <P size="4xl" class="text-center">Leaflet.js Adventures!</P>
     <P size="xl" class="text-center"
-      >An unified place for many useful survey apps.</P
+      >A gallery of things I have done with leaflet.js</P
     >
   </div>
 
@@ -45,11 +60,8 @@ let pages = [
     {/each}
   </div>
 
-  <div class="mt-8 text-right">
-    <P class="opacity-50">
-      Currently the Multi-Counter app is being developed. Timer app is just a
-      placeholder.
-    </P>
+  <div class="mt-8 text-right bottom-0 left-0 right-0 fixed z-10">
+    <P class="opacity-50 text-center">WIP, expect bugs and broken links...</P>
     <Hr class="bg-gray-300" />
     <A href="#/Designer">Green Room... for designing elements...</A><br />
     <A href="#/Designer1">Error Link</A>

@@ -12,6 +12,7 @@ import {
   DropdownDivider,
   P,
 } from "flowbite-svelte";
+import { onMount } from "svelte";
 import { slide } from "svelte/transition";
 import { Current_app, color_theme } from "./GlobalVars";
 
@@ -20,6 +21,7 @@ import { Current_app, color_theme } from "./GlobalVars";
 // main script
 const toggleTheme = () => {
   const DarkMode = window.document.documentElement.classList.toggle("dark");
+  console.log(DarkMode);
   $color_theme = DarkMode ? "dark" : "light";
   // localStorage.setItem("color-theme", $DarkMode ? "dark" : "light");
 };
